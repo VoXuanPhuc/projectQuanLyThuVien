@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Nhom KHP2T
+ * @author KHP2T
  */
 public class KetNoiSQL {
     public static Connection getConnection() {
