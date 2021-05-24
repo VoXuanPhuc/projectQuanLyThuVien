@@ -20,7 +20,7 @@ public class KetNoiSQL {
       String url = "net.sourceforge.jtds.jdbc.Driver";
         try {
             Class.forName(url);
-            String dbUrl = "jdbc:jtds:sqlserver://THUYHANG:1433/QuanLyThuVien";
+            String dbUrl = "jdbc:jtds:sqlserver://DESKTOP-NQLGPFV:1433/QuanLyThuVien";
             return DriverManager.getConnection(dbUrl);
         } catch (ClassNotFoundException ex) {
  
